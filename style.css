@@ -87,3 +87,25 @@ section::-webkit-scrollbar {
     flex: 0 0 auto !important;
     width: 220px !important;
 }
+
+@media (max-width: 768px) {
+
+    /* تكبير عرض بطاقة المنتج قليلاً في الهاتف */
+    .product-card {
+        min-width: 240px;
+        /* تكبير العرض شوية باش ما تبانش صغيرة */
+        padding: 15px;
+    }
+
+    /* تكبير أسماء المنتجات والأسعار لتكون واضحة */
+    .product-card h3,
+    .product-card p {
+        font-size: 1.1rem;
+    }
+
+    /* تكبير عناوين الأقسام مثل CAKES و COOKIES */
+    h2,
+    h1 {
+        font-size: 1.5rem;
+    }
+}
