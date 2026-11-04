@@ -11,11 +11,11 @@ img {
 }
 
 section {
-    display: flex;
+    display: flexbox;
     justify-content: center;
     gap: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: larger;
+    font-size: x-large;
 
 }
 
