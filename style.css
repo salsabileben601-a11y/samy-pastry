@@ -66,3 +66,24 @@ section {
     margin: 20px 0;
     /* مسافة بين الخط والعناصر */
 }
+
+section {
+    display: flex !important;
+    flex-direction: row !important;
+    overflow-x: auto !important;
+    gap: 20px !important;
+    padding: 15px !important;
+    scroll-behavior: smooth !important;
+    width: 100% !important;
+}
+
+/* إخفاء شريط التمرير */
+section::-webkit-scrollbar {
+    display: none;
+}
+
+/* تثبيت حجم الكارتات باش ما ينزلوش للتحت */
+.product-card {
+    flex: 0 0 auto !important;
+    width: 220px !important;
+}
