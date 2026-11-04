@@ -92,9 +92,9 @@ section::-webkit-scrollbar {
 
     /* تكبير عرض بطاقة المنتج قليلاً في الهاتف */
     .product-card {
-        min-width: 240px;
+        min-width: 190px;
         /* تكبير العرض شوية باش ما تبانش صغيرة */
-        padding: 15px;
+        padding: 10px;
     }
 
     /* تكبير أسماء المنتجات والأسعار لتكون واضحة */
