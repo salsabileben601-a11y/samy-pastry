@@ -22,7 +22,7 @@ section {
 
 
 .product-price {
-    color: darkred;
+    color: red;
 }
 
 .product-card {
@@ -32,9 +32,9 @@ section {
     /* إطار رفيع جداً ومحدد */
     border-radius: 16px;
     /* حواف دائرية للإطار */
-    padding: 15px;
+    padding: 10px;
     /* الفراغ الداخلي لي يلم كلش */
-    width: 220px;
+    width: 100px;
     /* عرض موحد للكروت باش يجوا متناسقين */
     text-align: left;
     /* النص يبدأ من اليسار */
