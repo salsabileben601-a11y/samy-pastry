@@ -94,7 +94,7 @@ section::-webkit-scrollbar {
     .product-card {
         min-width: 190px;
         /* تكبير العرض شوية باش ما تبانش صغيرة */
-        padding: 10px;
+        padding: 5px;
     }
 
     /* تكبير أسماء المنتجات والأسعار لتكون واضحة */
