@@ -5,7 +5,7 @@ body {
 }
 
 img {
-    border-radius: 5px;
+    border-radius: 3px;
     display: block;
     margin: auto;
 }
@@ -15,7 +15,7 @@ section {
     justify-content: center;
     gap: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
+    font-size: larger;
 
 }
 
