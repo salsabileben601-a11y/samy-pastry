@@ -115,21 +115,17 @@ section {
     overflow-x: auto !important;
     scroll-behavior: smooth !important;
     gap: 20px !important;
-    padding: 15px 10px !important;
+    /* عدلناها باش تبدأ المسافة من الأول تماماً وما تقصش المنتج الأول */
+    padding: 15px 20px !important;
     width: 100% !important;
-    /* إخفاء شريط التمرير المزعج */
-    scrollbar-width: none;
-    /* لمتصفح Firefox */
+    box-sizing: border-box !important;
 }
 
 section::-webkit-scrollbar {
     display: none;
-    /* لباقي المتصفحات */
 }
 
-/* تحديد عرض ثابت لبطاقات المنتجات باش ما يتقلصوش وما يختفيوش */
 .product-card {
     flex: 0 0 auto !important;
     width: 210px !important;
-    /* عرض ثابت لكل كارتة */
 }
