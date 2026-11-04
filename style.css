@@ -54,3 +54,15 @@ section {
     margin-bottom: 12px;
     /* مسافة بين الصورة والعنوان */
 }
+
+
+.my-line {
+    background-color: red;
+    /* تغيير لون الخط */
+    height: 3px;
+    /* سمك الخط */
+    border: none;
+    /* إزالة الإطار الافتراضي */
+    margin: 20px 0;
+    /* مسافة بين الخط والعناصر */
+}
