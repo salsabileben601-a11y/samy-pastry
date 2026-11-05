@@ -122,8 +122,8 @@ section {
     scroll-behavior: smooth !important;
     gap: 20px !important;
     padding: 15px 20px !important;
-    width: 200px;
-    height: 250px;
+    width: 100%;
+
     box-sizing: border-box !important;
     direction: ltr !important;
     /* ضبط اتجاه التمرير ليكون منتظماً */
