@@ -26,7 +26,8 @@ section {
 }
 
 .product-card {
-    background-color: #1a1a1a;
+    background-color: #333;
+    ;
     /* هذا هو اللون الرمادي الفخم لي يخلي الإطار يبان من خلفية الصفحة */
     border: 1px solid #333;
     /* إطار رفيع جداً ومحدد */
@@ -122,6 +123,7 @@ section {
     gap: 20px !important;
     padding: 15px 20px !important;
     width: 100% !important;
+    height: 350px;
     box-sizing: border-box !important;
     direction: ltr !important;
     /* ضبط اتجاه التمرير ليكون منتظماً */
@@ -134,4 +136,5 @@ section::-webkit-scrollbar {
 .product-card {
     flex: 0 0 auto !important;
     width: 210px !important;
+
 }
