@@ -146,3 +146,7 @@ h2 {
     margin-left: 25px;
     margin-bottom: 5px;
 }
+
+.product-card:hover {
+    box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.622);
+}
