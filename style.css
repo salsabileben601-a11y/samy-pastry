@@ -40,6 +40,7 @@ section {
     text-align: left;
     /* النص يبدأ من اليسار */
     height: 200;
+    margin-bottom: 30px;
 }
 
 .product-card img {
@@ -127,6 +128,8 @@ section {
     box-sizing: border-box !important;
     direction: ltr !important;
     /* ضبط اتجاه التمرير ليكون منتظماً */
+
+
 }
 
 section::-webkit-scrollbar {
@@ -137,4 +140,9 @@ section::-webkit-scrollbar {
     flex: 0 0 auto !important;
     width: 210px !important;
 
+}
+
+h2 {
+    margin-left: 25px;
+    margin-bottom: 5px;
 }
